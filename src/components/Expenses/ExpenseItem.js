@@ -22,9 +22,6 @@ function ExpenseItem(props) {
 
       {/* In line anonymous function (Uncomment line 24 and comment line 27 */}
       {/* <button onClick={() => (setTitle('Cool'))}>Change Title</button> */}
-
-      {/* Call a click handler on the button to change a props value by using state management */}
-      <button onClick={clickHandler}>Change Title</button>
     </Card>
   );
 }
